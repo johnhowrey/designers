@@ -10,7 +10,7 @@ The parts of design your AI gets wrong, done properly.
 
 Designers is a remote MCP server for people who design with an AI assistant. The assistant is good at talking about design and bad at the parts that need arithmetic or a checklist. Designers does those deterministically and hands the numbers back to the model:
 
-- **Contrast.** WCAG 2.2 ratios for text and UI pairs, APCA lightness contrast, the nearest colour that passes, and a colour-blind check that finds palette colours which merge under protanopia, deuteranopia and tritanopia.
+- **Contrast.** WCAG 2.2 ratios for text and UI pairs, APCA lightness contrast, the nearest color that passes, and a color-blind check that finds palette colors which merge under protanopia, deuteranopia and tritanopia.
 - **Page accessibility.** Reads one page's HTML and names the WCAG 2.2 criterion behind each problem: missing alt, unlabelled fields, vague links, empty buttons, skipped headings, zoom locks, autoplay, tiny targets. Static markup only, and it says what it cannot see.
 - **Touch targets, reflow, alt text quality, error message checks, page weight** and about thirty more small checks, each with a real input and output on its tool page.
 - **Research and product hygiene.** Lint for interview questions, tracking plans and design critique; SUS scoring, sample sizes and test durations with the formula shown.
@@ -48,12 +48,12 @@ Free covers every tool with a daily cap per tool (10 to 60 runs) and needs no si
 
 ## Limits, stated plainly
 
-Automated checks reach roughly a third of WCAG. The page audit reads static HTML and cannot test colour contrast on images, focus order, keyboard traps, screen reader announcements or anything built by script after load. Each tool page lists what it cannot see.
+Automated checks reach roughly a third of WCAG. The page audit reads static HTML and cannot test color contrast on images, focus order, keyboard traps, screen reader announcements or anything built by script after load. Each tool page lists what it cannot see.
 
 ## Issues and questions
 
 Open an issue here, or write to hello@allthepossibles.com. Tell us the tool, the input, and what you expected.
 
-## Licence
+## License
 
 The server is a hosted service. This repository holds its documentation and issue tracker and is CC0.
